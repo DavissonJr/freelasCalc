@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelas Calculator - Calcule o valor do seu trabalho!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FREELAS CALCULATOR</h1>
+        <div class="senioridade">
+            <p>Selecione sua senioridade:</p>
+            <button id="btn-jr">Júnior</button>
+            <button id="btn-pl">Pleno</button>
+            <button id="btn-sr">Sênior</button>
+        </div>
+        <p class="time">Quantas horas você gastará nesse projeto:</p>
+        <div class="input-container">
+            <input id="hours-value" type="number" placeholder="Horas">
+            <input id="submitcalc" type="submit" value="Calcular">
+        </div>
+        <div class="value-container">
+        <p>O valor cobrado nesse projeto será de:</p>
+        <p id="project-value"></p>
+        </div>
+    </div>
+</body>
+
+    <script src="script.js"></script>
+</body>
+</html>
